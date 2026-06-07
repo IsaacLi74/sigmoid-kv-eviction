@@ -1,7 +1,6 @@
 # Sigmoid KV Eviction
 
-Code for **Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction**  
-ICML 2026 AdaptFM Workshop
+Code release for **Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction**, accepted to the ICML 2026 AdaptFM Workshop.
 
 This repository contains the notebooks and artifacts for a controlled GPT-2-scale experiment on learned KV-cache eviction. Because the models are GPT-2 scale, the experiments are designed to be simple to inspect and reproducible in Google Colab.
 
@@ -14,19 +13,6 @@ The experiments compare:
 - RoPE vs. NoRoPE settings
 
 The main question is whether sigmoid attention provides a better substrate for transferring a soft training-time KV-retention gate into hard physical KV-cache deletion at inference time.
-
-## Files
-
-```text
-.
-├── paper/        # camera-ready paper files
-├── notebooks/   # Colab notebooks for training and evaluation
-├── figures/     # paper figures
-├── results/     # exported result tables
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
 
 ## Reproduction
 
