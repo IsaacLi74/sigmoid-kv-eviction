@@ -27,8 +27,6 @@ Open the notebooks in `notebooks/` with Google Colab and run them in numerical o
 09_Token_Interpretability.ipynb
 ```
 
-The main evaluation uses sequence length 512, with 384 tokens for prefill and 128 tokens for decode.
-
 ## Note
 
 Large training artifacts such as datasets and checkpoints are not included. The notebooks are provided for reproducibility and inspection.
